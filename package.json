@@ -21,7 +21,8 @@
     "docz": "latest",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "tigerspack": "^0.0.5"
   },
   "devDependencies": {
     "now": "^16.1.2"
