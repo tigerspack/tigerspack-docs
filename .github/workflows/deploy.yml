@@ -11,7 +11,7 @@ jobs:
         node-version: [13.2.0]
     steps:
       - uses: actions/checkout@master
-      - name: install, build, and test
+      - name: install and build
         run: |
           yarn install
           yarn build
@@ -22,6 +22,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v1
         with:
           target_branch: gh-pages
-          build_dir: public
+          build_dir: .docz/public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
