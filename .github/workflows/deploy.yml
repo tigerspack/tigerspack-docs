@@ -1,0 +1,27 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [13.2.0]
+    steps:
+      - uses: actions/checkout@master
+      - name: install, build, and test
+        run: |
+          yarn install
+          yarn build
+        env:
+          CI: true
+      - name: Deploy
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: gh-pages
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
