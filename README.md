@@ -1,49 +1,41 @@
-# Docz Now Deployment example
+# Website
 
-## Using `create-docz-app`
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-```sh
-npx create-docz-app docz-app-now --example now
-# or
-yarn create docz-app docz-app-now --example now
+### Installation
+
+```
+$ yarn
 ```
 
-## Download manually
+### Local Development
 
-```sh
-curl https://codeload.github.com/doczjs/docz/tar.gz/master | tar -xz --strip=2 docz-master/examples/now
-mv now docz-example-now
-docz-example-now
+```
+$ yarn start
 ```
 
-## Setup
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
-```sh
-yarn # npm i
+### Build
+
+```
+$ yarn build
 ```
 
-## Run
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-```sh
-yarn dev # npm run dev
+### Deployment
+
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
-## Build
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-```sh
-yarn build # npm run build
+### Continuous Integration
+
+Some common defaults for linting/formatting have been set for you. If you integrate your project with an open source Continuous Integration system (e.g. Travis CI, CircleCI), you may check for issues using the following command.
+
 ```
-
-## Serve built app
-
-```sh
-yarn serve # npm run serve
+$ yarn ci
 ```
-
-## Deploy
-
-```sh
-yarn deploy
-```
-
-Note that by default `docz` generates the output site in `.docz/public` to change that add a `dest` field to your `doczrc.js` with the path you want to generate the code in.
