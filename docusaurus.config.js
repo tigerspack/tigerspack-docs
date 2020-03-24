@@ -8,19 +8,19 @@
  */
 
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Tigerspack',
+  tagline: 'The fastest UI framework for React',
+  url: 'https://tigerspack.awb.pw/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'tigerspack', // Usually your GitHub org/user name.
+  projectName: 'tigerspack-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: 'Tigerspack',
       logo: {
-        alt: 'My Facebook Project Logo',
-        src: 'img/logo.svg',
+        alt: 'Tigerspack Logo',
+        src: 'img/logo.png',
       },
       links: [
         {
@@ -32,7 +32,7 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/tigerspack/tigerspack-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -76,11 +76,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://github.com/tigerspack/tigerspack-docs',
             },
           ],
         },
@@ -91,7 +87,7 @@ module.exports = {
         href: 'https://opensource.facebook.com/',
       },
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tigerspack. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -101,7 +97,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/tigerspack/tigerspack-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
