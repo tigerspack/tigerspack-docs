@@ -24,15 +24,21 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'docs/getting-started',
+          activeBasePath: 'docs/getting-started',
+          label: 'Getting Started',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'docs/components/button',
+          activeBasePath: 'docs/components',
+          label: 'Components',
+          position: 'left',
+        },
+        {to: 'blog', label: 'Blog', position: 'right'},
         // Please keep GitHub link to the right for consistency.
         {
-          href: 'https://github.com/tigerspack/tigerspack-docs',
+          href: 'https://github.com/tigerspack/tigerspack',
           label: 'GitHub',
           position: 'right',
         },
@@ -76,7 +82,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/tigerspack/tigerspack-docs',
+              href: 'https://github.com/tigerspack/tigerspack',
             },
           ],
         },
