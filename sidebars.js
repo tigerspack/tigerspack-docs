@@ -10,6 +10,6 @@
 module.exports = {
   someSidebar: {
     Documentation: ['getting-started', 'colors', 'customization'],
-    Components: ['components/button'],
+    Components: ['components/alert', 'components/button'],
   },
 };
