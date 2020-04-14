@@ -9709,10 +9709,10 @@ thunky@^1.0.2:
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==
 
-tigerspack@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/tigerspack/-/tigerspack-0.0.15.tgz#4cd8dde1b69625f5ace4f5b81398cda8f64c92ca"
-  integrity sha512-WAIqKqAwPNHVJdC8lyqlAsuCvxZ2gcpE+nEFEgCQAg7a8pTC6QHw2HuvQ8Pm6vQuXjspQvo71A45JujFSZG09Q==
+tigerspack@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/tigerspack/-/tigerspack-0.0.16.tgz#7325f775d8c3436e7c9e6c819d588d916d85f6b8"
+  integrity sha512-OV6e3JNK6gte+t7RA8Nma5YXNRhx8UvAZPySLQQfBy8hCDZiPpos17Fy5dti0/xykJInW8hZETHO+j+z7sfBSQ==
   dependencies:
     aphrodite "^2.4.0"
     prop-types "^15.7.2"
