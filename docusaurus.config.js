@@ -30,7 +30,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/components/button',
+          to: 'docs/components/alert',
           activeBasePath: 'docs/components',
           label: 'Components',
           position: 'left',
