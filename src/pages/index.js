@@ -14,6 +14,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import ClientOnly from './ClientOnly';
 import { Button } from 'tigerspack';
 
 const features = [
@@ -78,7 +79,9 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link to={useBaseUrl('docs/getting-started')}>
-              <Button theme={'warning'} size={'large'}>Getting Started</Button>
+              <ClientOnly>
+                <Button theme={'warning'} size={'large'}>Getting Started</Button>
+              </ClientOnly>
             </Link>
           </div>
         </div>
