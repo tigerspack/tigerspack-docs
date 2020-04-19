@@ -10,7 +10,7 @@
 module.exports = {
   title: 'Tigerspack',
   tagline: 'The fastest UI framework for React',
-  url: 'https://tigerspack.awb.pw/',
+  url: 'https://tigerspack.com/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tigerspack', // Usually your GitHub org/user name.
