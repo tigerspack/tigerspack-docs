@@ -9804,10 +9804,10 @@ thunky@^1.0.2:
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==
 
-tigerspack@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/tigerspack/-/tigerspack-0.1.7.tgz#3f22d7708aa79a667946643bfd5a5b4fe549a218"
-  integrity sha512-gYNkcQ6oHvRTyBiPCnkXKnfdH8Wz1SfkCDJnjpFOqzmgVLRg3P6fFuj6C2uSwZuAyPgDOJghqQzng17iBQDSTQ==
+tigerspack@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/tigerspack/-/tigerspack-0.1.8.tgz#34ec96eb0995b6925a408b1e877dce12055e661a"
+  integrity sha512-GF5Y4GveTIbTdq07/Xq+vYlB5FV0oGivZ6mNivGKLaFeyuomA7YXTKOj1/n2pf71FOTOlNDGvLfIv77Mgkhy5g==
   dependencies:
     "@emotion/babel-preset-css-prop" "^10.0.27"
     "@emotion/core" "^10.0.28"
