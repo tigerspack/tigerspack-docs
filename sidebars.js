@@ -9,7 +9,17 @@
 
 module.exports = {
   someSidebar: {
-    Documentation: ['getting-started', 'colors', 'customization'],
-    Components: ['components/alert', 'components/button', 'components/card', 'components/input'],
+    Documentation: [
+      'getting-started',
+      'colors',
+      'customization'
+    ],
+    Components: [
+      'components/alert',
+      'components/button',
+      'components/card',
+      'components/grid',
+      'components/input'
+    ],
   },
 };

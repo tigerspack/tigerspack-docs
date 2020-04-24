@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button } from 'tigerspack';
+import { Button, Grid } from 'tigerspack';
 
 const ButtonComponent = ({ children, ...props }) => (
-    <div style={{padding: '5px', display: 'inline-block'}}>
+    <Grid padding={5}>
       <Button {...props}>{children}</Button>
-    </div>
+    </Grid>
 );
 
 ButtonComponent.propTypes = {
