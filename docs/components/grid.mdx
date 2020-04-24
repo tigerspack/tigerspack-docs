@@ -1,0 +1,68 @@
+---
+id: grid
+title: Grid
+sidebar_label: Grid
+---
+
+import Playground from './Playground'
+import { Blank, Grid } from 'tigerspack';
+
+## API
+
+|Prop          |Type      |Available options                    |Description                                 |Default       |
+|--------------|----------|-------------------------------------|--------------------------------------------|--------------|
+|**align**     |string    |```left``` ```right``` ```center```  |Horizontal position of child elements       |``` left ```  |
+|**children*** |jsx       |                                     |The content                                 |              |
+|**flow**      |string    |```row``` ```column```               |Flow of child elements                      |```row```     |
+|**padding**   |number    |```0 - 1000```                       |The indent within the block                 |``` #000 ```  |
+|**stretch**   |string    |```width``` ```height``` ```full```  |Stretches the width by 100%                 |``` #fff ```  |
+|**size**      |number    |```0 - 12```                         |Cell size                                   |```auto```    |
+|**valign**    |string    |```top``` ```bottom``` ```center```  |Vertical position of child elements         |```top```     |
+|**wrap**      |bool      |```true``` ```false```               |Allows you to move elements to the next line|```false```   |
+
+## Size prop
+
+<Playground>
+    <Grid flow={'column'} stretch={'width'}>
+        <Grid wrap>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+          <Grid padding={5} size={1}><Blank align={'center'}>1</Blank></Grid>
+        </Grid>
+        <Grid wrap>
+            <Grid padding={5} size={2}><Blank align={'center'}>2</Blank></Grid>
+            <Grid padding={5} size={2}><Blank align={'center'}>2</Blank></Grid>
+            <Grid padding={5} size={2}><Blank align={'center'}>2</Blank></Grid>
+            <Grid padding={5} size={2}><Blank align={'center'}>2</Blank></Grid>
+            <Grid padding={5} size={2}><Blank align={'center'}>2</Blank></Grid>
+            <Grid padding={5} size={2}><Blank align={'center'}>2</Blank></Grid>
+        </Grid>
+        <Grid wrap>
+            <Grid padding={5} size={3}><Blank align={'center'}>3</Blank></Grid>
+            <Grid padding={5} size={3}><Blank align={'center'}>3</Blank></Grid>
+            <Grid padding={5} size={3}><Blank align={'center'}>3</Blank></Grid>
+            <Grid padding={5} size={3}><Blank align={'center'}>3</Blank></Grid>
+        </Grid>
+        <Grid wrap>
+            <Grid padding={5} size={4}><Blank align={'center'}>4</Blank></Grid>
+            <Grid padding={5} size={4}><Blank align={'center'}>4</Blank></Grid>
+            <Grid padding={5} size={4}><Blank align={'center'}>4</Blank></Grid>
+        </Grid>
+        <Grid wrap>
+            <Grid padding={5} size={6}><Blank align={'center'}>6</Blank></Grid>
+            <Grid padding={5} size={6}><Blank align={'center'}>6</Blank></Grid>
+        </Grid>
+        <Grid wrap>
+            <Grid padding={5} size={12}><Blank align={'center'}>12</Blank></Grid>
+        </Grid>
+    </Grid>
+</Playground>

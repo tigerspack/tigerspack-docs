@@ -18,7 +18,7 @@
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "tigerspack": "^0.1.8"
+    "tigerspack": "^0.1.16"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
