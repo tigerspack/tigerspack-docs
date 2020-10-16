@@ -24,7 +24,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.1",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-header": "^3.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
